@@ -1,0 +1,457 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+
+.header{background-color: brown;
+  margin-right: 80%;
+  position: fixed;
+  padding-bottom: 10%;
+
+}
+
+.div1{
+
+  &__div2{
+
+    color: white;
+    text-align: center;
+
+    &__img{
+      width: 80%;
+      height: 80%;
+      border-radius: 50%;
+      padding: 5%;
+
+    }
+
+
+  }
+
+  .nav{
+    display: flex;
+   justify-content: center;
+   margin-right:15% ;
+   padding: 5%;
+    &__ul{
+
+      list-style: none;
+
+      &__li{
+        padding: 40%;
+
+        &__a{
+          text-decoration: none;
+          color: white;
+        }
+      }
+    }
+
+  }
+}
+
+.background-img{
+ width: 80%;
+ height: 50%;
+ margin-left: 20%;
+ margin-bottom: 50%;
+ background-image: url(./img/pink.jpg);
+ background-size:cover;
+ background-repeat: no-repeat;
+ position: absolute;
+
+
+
+
+   &__p{
+       
+    width: 30%;
+    height: 50%;
+    padding-left: 15%;
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-around;
+
+    &__t{
+     text-align: center;
+     padding-left: 5%;
+    }
+     
+  
+    
+  }
+}
+
+.section2{
+  position: absolute;
+  margin-left: 20.1%;
+  margin-top: 25%;
+}
+
+.S2-div{
+
+  &__div1{
+   
+    margin: 4%;
+    text-align: justify;
+
+    &__h2{
+      color: rgb(20, 20, 154);
+      text-decoration: underline;
+      
+      text-decoration-style:solid;
+      text-decoration-color: rgb(179, 21, 53);
+
+    }
+    &__p{
+      padding-top: 2%;
+
+     
+    }
+  }
+
+  &__div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__img{
+      width: 80%;
+      height: 80%;
+      padding: 5%;
+      
+      &__img{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+      }
+    }
+
+    &__tex{
+
+      padding: 2%;
+      line-height: 200%;
+      text-align: justify;
+
+      &__tex-h2{
+        color: rgb(20, 20, 154);
+      }
+
+      &__tex2{
+
+        &__ul{
+         
+          &__ul{
+            list-style: none;
+            &__li{
+              padding: 0.5%;
+              color: rgb(20, 20, 154);
+              &__span{
+                margin-left: 2%;
+                color: black;
+              }
+
+            }
+          }
+        }
+      }
+
+    }
+
+
+  }
+}
+
+.section3{
+  position: absolute;
+  margin-left: 20.1%;
+  margin-top: 75%;
+
+}
+
+.S3-div{
+  padding: 5%;
+
+  &__div2{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    gap: 10%;
+    &__ul{
+
+      &__ul{
+       list-style: none;
+       &__li{
+        padding: 5%;
+       }
+      }
+    }
+  }
+
+}
+
+.section4{
+  position: absolute;
+  margin-left: 22%;
+  margin-top: 100%;
+  padding: 2%;
+
+  &__head{
+    text-align: justify;
+    padding-bottom: 5%;
+
+    &__h2{
+      
+      color: rgb(20, 20, 154);
+      text-decoration: underline;
+      text-decoration-color: rgb(179, 21, 53);;
+    }
+
+    &__h2--cursive{
+      text-align: center;
+      color: rgb(20, 20, 154);
+      padding: 2%;
+      font-style: italic;
+    }
+  }
+
+
+}
+
+.div-principal{
+  display: flex;
+  gap: 10%;
+
+  &__resume1{
+     
+
+    &__h2 {
+      text-align: center;
+      color: rgb(20, 20, 154);
+      
+
+
+    }
+
+    &__div1 {
+      padding: 5%;
+      
+      &__h3{
+        padding: 2%;
+        color: rgb(154, 20, 74);
+      }
+      
+      &__h4{
+        background-color: bisque;
+        font-style: italic;
+        width: 20%;
+        padding: 1%;
+        margin: 2%;
+      }
+
+      &__p{
+        padding: 2%;
+      }
+    }
+
+    &__div2 {
+      padding: 5%;
+      
+      &__h3{
+        padding: 2%;
+        color: rgb(154, 20, 74);
+      }
+      
+      &__h4{
+        background-color: bisque;
+        font-style: italic;
+        width: 20%;
+        padding: 1%;
+        margin: 2%;
+        
+      }
+
+      &__p{
+        padding: 2%;
+      }
+    }
+    &__div3 {
+      padding: 5%;
+      
+      &__h3{
+        padding: 2%;
+        color: rgb(154, 20, 74);
+      }
+      
+      &__h4{
+        background-color: bisque;
+        font-style: italic;
+        width: 30%;
+        padding: 1%;
+        margin: 2%;
+      }
+
+      &__p{
+        padding: 2%;
+      }
+    }
+    &__div4 {
+      padding: 5%;
+      
+      &__h3{
+        padding: 2%;
+        color: rgb(154, 20, 74);
+      }
+      
+      &__h4{
+        background-color: bisque;
+        font-style: italic;
+        width: 20%;
+        padding: 1%;
+        margin: 2%;
+      }
+
+      &__p{
+        padding: 2%;
+      }
+    }
+  
+  }
+
+  &__resume2{
+
+    &__h2{
+      text-align: center;
+      color: rgb(20, 20, 154);
+
+    }
+
+    &__div1{
+
+
+      &__h3{
+        padding-top: 5%;
+        color: rgb(154, 20, 74);
+      }
+      
+      &__h4{
+        background-color: bisque;
+        font-style: italic;
+        width: 25%;
+        padding: 1%;
+        margin: 1%;
+        
+      }
+
+      &__p{
+        padding: 1%;
+        font-weight: 700;
+        font-style: italic;
+      }
+
+      &__ul{
+
+        padding: 1%;
+      }
+
+
+    }
+
+    &__div2{
+
+
+      &__h3{
+        padding-top: 5%;
+        color: rgb(154, 20, 74);
+      }
+      
+      &__h4{
+        background-color: bisque;
+        font-style: italic;
+        width: 25%;
+        padding: 1%;
+        margin: 1%;
+        
+      }
+
+      &__p{
+        padding: 1%;
+        font-weight: 700;
+        font-style: italic;
+      }
+
+      &__ul{
+
+        padding: 1%;
+      }
+
+
+    }
+    &__div3{
+
+
+      &__h3{
+        padding-top: 5%;
+        color: rgb(154, 20, 74);
+      }
+      
+      &__h4{
+        background-color: bisque;
+        font-style: italic;
+        width: 25%;
+        padding: 1%;
+        margin: 1%;
+        
+      }
+
+      &__p{
+        padding: 1%;
+        font-weight: 700;
+        font-style: italic;
+      }
+
+      &__ul{
+
+        padding: 1%;
+      }
+
+
+    }
+    &__div4{
+
+
+      &__h3{
+        padding-top: 5%;
+        color: rgb(154, 20, 74);
+      }
+      
+      &__h4{
+        background-color: bisque;
+        font-style: italic;
+        width: 25%;
+        padding: 1%;
+        margin: 1%;
+        
+      }
+
+      &__p{
+        padding: 1%;
+        font-weight: 700;
+        font-style: italic;
+      }
+
+      &__ul{
+
+        padding: 1%;
+      }
+
+
+    }
+
+
+  }
+
+
+}
+

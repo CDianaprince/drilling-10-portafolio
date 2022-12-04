@@ -5,26 +5,23 @@
 
 .header {
   background-color: brown;
-  margin-right: 80%;
+  padding-right: 9%;
   position: fixed;
   padding-bottom: 10%;
+  padding-top: 8%;
 }
 
+.div1 {
+  padding-left: 5%;
+}
 .div1__div2 {
   color: white;
   text-align: center;
 }
-.div1__div2__img {
-  width: 80%;
-  height: 80%;
-  border-radius: 50%;
-  padding: 5%;
-}
 .div1 .nav {
   display: flex;
   justify-content: center;
-  margin-right: 15%;
-  padding: 5%;
+  padding-left: 45%;
 }
 .div1 .nav__ul {
   list-style: none;
@@ -38,22 +35,22 @@
 }
 
 .background-img {
-  width: 80%;
-  height: 50%;
-  margin-left: 20%;
+  width: 85%;
+  height: 20%;
+  margin-left: 14.8%;
   margin-bottom: 50%;
-  background-image: url(./img/pink.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(9, 77, 121) 35%, rgb(0, 212, 255) 100%);
+  color: white;
   position: absolute;
 }
 .background-img__p {
-  width: 30%;
+  width: 100%;
   height: 50%;
-  padding-left: 15%;
-  padding-top: 5%;
+  padding-top: 3%;
+  padding-left: 5%;
   display: flex;
-  justify-content: space-around;
+  justify-content: start;
 }
 .background-img__p__t {
   text-align: center;
@@ -62,8 +59,8 @@
 
 .section2 {
   position: absolute;
-  margin-left: 20.1%;
-  margin-top: 25%;
+  margin-left: 15%;
+  margin-top: 10%;
 }
 
 .S2-div__div1 {
@@ -90,12 +87,13 @@
   padding: 5%;
 }
 .S2-div__div2__img__img {
-  width: 100%;
-  height: 100%;
+  width: 250px;
+  height: 290px;
   border-radius: 50%;
 }
 .S2-div__div2__tex {
   padding: 2%;
+  padding-left: 0%;
   line-height: 200%;
   text-align: justify;
 }
@@ -116,8 +114,8 @@
 
 .section3 {
   position: absolute;
-  margin-left: 20.1%;
-  margin-top: 75%;
+  margin-left: 15%;
+  margin-top: 60%;
 }
 
 .S3-div {
@@ -138,9 +136,10 @@
 
 .section4 {
   position: absolute;
-  margin-left: 22%;
+  margin-left: 17%;
   margin-top: 100%;
   padding: 2%;
+  padding-top: 0;
 }
 .section4__head {
   text-align: justify;
@@ -154,13 +153,14 @@
 .section4__head__h2--cursive {
   text-align: center;
   color: rgb(20, 20, 154);
-  padding: 2%;
+  padding: 1%;
   font-style: italic;
 }
 
 .div-principal {
   display: flex;
-  gap: 10%;
+  padding-left: 5%;
+  gap: 15%;
 }
 .div-principal__resume1__h2 {
   text-align: center;
@@ -170,44 +170,53 @@
   padding: 5%;
 }
 .div-principal__resume1__div1__h3 {
-  padding: 2%;
+  font-size: larger;
   color: rgb(154, 20, 74);
 }
 .div-principal__resume1__div1__h4 {
+  font-size: medium;
+  text-align: center;
   background-color: bisque;
   font-style: italic;
-  width: 20%;
+  width: 30%;
   padding: 1%;
   margin: 2%;
 }
 .div-principal__resume1__div1__p {
-  padding: 2%;
+  font-size: medium;
 }
 .div-principal__resume1__div2 {
-  padding: 5%;
+  padding: 2%;
 }
 .div-principal__resume1__div2__h3 {
+  font-size: larger;
   padding: 2%;
   color: rgb(154, 20, 74);
 }
 .div-principal__resume1__div2__h4 {
+  font-size: medium;
+  text-align: center;
   background-color: bisque;
   font-style: italic;
-  width: 20%;
+  width: 30%;
   padding: 1%;
   margin: 2%;
+  margin-left: 3%;
 }
 .div-principal__resume1__div2__p {
   padding: 2%;
 }
 .div-principal__resume1__div3 {
-  padding: 5%;
+  padding: 2%;
 }
 .div-principal__resume1__div3__h3 {
+  font-size: large;
   padding: 2%;
   color: rgb(154, 20, 74);
 }
 .div-principal__resume1__div3__h4 {
+  font-size: medium;
+  text-align: center;
   background-color: bisque;
   font-style: italic;
   width: 30%;
@@ -218,16 +227,19 @@
   padding: 2%;
 }
 .div-principal__resume1__div4 {
-  padding: 5%;
+  padding: 2%;
 }
 .div-principal__resume1__div4__h3 {
+  font-size: large;
   padding: 2%;
   color: rgb(154, 20, 74);
 }
 .div-principal__resume1__div4__h4 {
+  font-size: medium;
+  text-align: center;
   background-color: bisque;
   font-style: italic;
-  width: 20%;
+  width: 30%;
   padding: 1%;
   margin: 2%;
 }
@@ -239,29 +251,31 @@
   color: rgb(20, 20, 154);
 }
 .div-principal__resume2__div1__h3 {
-  padding-top: 5%;
+  font-size: large;
+  padding-top: 3%;
   color: rgb(154, 20, 74);
 }
 .div-principal__resume2__div1__h4 {
+  font-size: medium;
+  text-align: center;
   background-color: bisque;
   font-style: italic;
-  width: 25%;
+  width: 35%;
   padding: 1%;
   margin: 1%;
 }
 .div-principal__resume2__div1__p {
-  padding: 1%;
   font-weight: 700;
   font-style: italic;
 }
-.div-principal__resume2__div1__ul {
-  padding: 1%;
-}
 .div-principal__resume2__div2__h3 {
+  font-size: large;
   padding-top: 5%;
   color: rgb(154, 20, 74);
 }
 .div-principal__resume2__div2__h4 {
+  font-size: medium;
+  text-align: center;
   background-color: bisque;
   font-style: italic;
   width: 25%;
@@ -273,14 +287,14 @@
   font-weight: 700;
   font-style: italic;
 }
-.div-principal__resume2__div2__ul {
-  padding: 1%;
-}
 .div-principal__resume2__div3__h3 {
+  font-size: large;
   padding-top: 5%;
   color: rgb(154, 20, 74);
 }
 .div-principal__resume2__div3__h4 {
+  font-size: medium;
+  text-align: center;
   background-color: bisque;
   font-style: italic;
   width: 25%;
@@ -292,14 +306,14 @@
   font-weight: 700;
   font-style: italic;
 }
-.div-principal__resume2__div3__ul {
-  padding: 1%;
-}
 .div-principal__resume2__div4__h3 {
+  font-size: large;
   padding-top: 5%;
   color: rgb(154, 20, 74);
 }
 .div-principal__resume2__div4__h4 {
+  font-size: medium;
+  text-align: center;
   background-color: bisque;
   font-style: italic;
   width: 25%;
@@ -311,8 +325,54 @@
   font-weight: 700;
   font-style: italic;
 }
-.div-principal__resume2__div4__ul {
-  padding: 1%;
+
+.section5 {
+  position: absolute;
+  margin-left: 17%;
+  margin-top: 200%;
+  padding: 2%;
+  padding-top: 0;
+}
+.section5__div-principal__div1__h2 {
+  color: rgb(20, 20, 154);
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-color: rgb(179, 21, 53);
+}
+
+.cards, .web, .Blog {
+  display: flex;
+  gap: 5%;
+}
+
+.section6 {
+  position: absolute;
+  margin-left: 17%;
+  margin-top: 300%;
+  padding: 2%;
+  padding-top: 0;
+}
+.section6__div-principal1__div1__h2 {
+  color: rgb(20, 20, 154);
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-color: rgb(179, 21, 53);
+}
+.section6__div-principal1__div2 {
+  display: flex;
+  padding-top: 6%;
+}
+.section6__div-principal1__div2__divI {
+  width: 50%;
+  padding-left: 6%;
+}
+
+.img--strong {
+  color: rgb(20, 20, 154);
+}
+
+form {
+  width: 45%;
 }
 
 /*# sourceMappingURL=style.css.map */

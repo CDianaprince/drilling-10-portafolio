@@ -167,7 +167,7 @@
 .section3{
   position: absolute;
   margin-left: 13%;
-  margin-top: 60%;
+  margin-top: 70%;
 
 }
 
@@ -202,7 +202,6 @@
       }
       }
 
-  
 
       &__list{
         display: flex;
@@ -212,10 +211,10 @@
 
       &__ul{
        list-style:disc;
-      
+       line-height: 100%;
 
        &__li{
-        padding: 5%;
+        padding: 1%;
        }
       }
     }
@@ -226,7 +225,7 @@
 .section4{
   position: absolute;
   margin-left: 15%;
-  margin-top: 110%;
+  margin-top: 115%;
   padding: 2%;
   padding-top: 0;
 

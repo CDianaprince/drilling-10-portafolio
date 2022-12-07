@@ -11,6 +11,12 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    <!--fontawsome-->
+    <script
+      src="https://kit.fontawesome.com/affdc5536d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--CSS-->
     <link rel="stylesheet" href="assets/style.css" />
   </head>
 
@@ -18,37 +24,39 @@
     <header class="header">
       <div class="div1">
         <div class="div1__div2">
-          <img
-            class="div1__div2__img"
-            src="assets/img/red.jpg"
-            alt="Diana Prince foto"
-          />
-          <h1>Diana Prince</h1>
-
-          <div class="div1____div2__icons">Iconos redes</div>
+          <div class="div1__div2__icons">
+            <a
+              class="div1__div2__icons__a text-light"
+              href="https://www.facebook.com/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-facebook"></i
+            ></a>
+          </div>
+          <div class="div1__div2__icons">
+            <a
+              class="div1__div2__icons__a text-light"
+              href="https://www.facebook.com/"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </div>
+          <div class="div1__div2__icons__1">
+            <a
+              class="div1__div2__icons__a text-light"
+              href="https://www.facebook.com/"
+              target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
         </div>
 
-        <nav class="nav">
-          <ul class="nav__ul">
-            <li class="nav__ul__li">
-              <a class="nav__ul__li__a" href="#">Home</a>
-            </li>
-            <li class="nav__ul__li">
-              <a class="nav__ul__li__a" href="#">About</a>
-            </li>
-            <li class="nav__ul__li">
-              <a class="nav__ul__li__a" href="#">Resume</a>
-            </li>
-            <li class="nav__ul__li">
-              <a class="nav__ul__li__a" href="#">Portafolio</a>
-            </li>
-            <li class="nav__ul__li">
-              <a class="nav__ul__li__a" href="#">Services</a>
-            </li>
-            <li class="nav__ul__li">
-              <a class="nav__ul__li__a" href="#">Contac</a>
-            </li>
-          </ul>
+        <nav class="nav flex-column">
+          <a href="#sec2" class="nav-link active text-light">About</a>
+          <a href="#sec3" class="nav-link text-light" href="#">Skills</a>
+          <a href="#sec4" class="nav-link text-light" href="#">Resume</a>
+          <a href="#sec5" class="nav-link text-light" href="#">Portafolio</a>
+          <a href="#sec6" class="nav-link text-light" href="#">Contac</a>
         </nav>
       </div>
     </header>
@@ -65,7 +73,7 @@
     </section>
 
     <main>
-      <section class="section2">
+      <section id="sec2" class="section2">
         <div class="S2-div">
           <div class="S2-div__div1">
             <h2 class="S2-div__div1__h2">About</h2>
@@ -86,7 +94,7 @@
             <div class="S2-div__div2__img">
               <img
                 class="S2-div__div2__img__img"
-                src="assets/img/blue.jpg"
+                src="assets/img/1657117701140.jpg"
                 alt="Diana Prince"
               />
             </div>
@@ -105,28 +113,28 @@
                 <div class="S2-div__div2__tex__tex2__ul">
                   <ul class="S2-div__div2__tex__tex2__ul__ul">
                     <li class="S2-div__div2__tex__tex2__ul__ul__li">
-                      <strong>Website:</strong
-                      ><span class="S2-div__div2__tex__tex2__ul__ul__li__span"
+                      <p>Website:</p>
+                      <span class="S2-div__div2__tex__tex2__ul__ul__li__span"
                         >www.example.com</span
                       >
                     </li>
                     <li class="S2-div__div2__tex__tex2__ul__ul__li">
-                      <strong>Phone:</strong
-                      ><span class="S2-div__div2__tex__tex2__ul__ul__li__span"
+                      <p>Phone:</p>
+                      <span class="S2-div__div2__tex__tex2__ul__ul__li__span"
                         >+504 96 20 15 31</span
                       >
                     </li>
 
                     <li class="S2-div__div2__tex__tex2__ul__ul__li">
-                      <strong>City:</strong
-                      ><span class="S2-div__div2__tex__tex2__ul__ul__li__span"
+                      <p>City:</p>
+                      <span class="S2-div__div2__tex__tex2__ul__ul__li__span"
                         >Honduras, Tegucigalpa</span
                       >
                     </li>
 
                     <li class="S2-div__div2__tex__tex2__ul__ul__li">
-                      <strong>Email:</strong
-                      ><span class="S2-div__div2__tex__tex2__ul__ul__li__span"
+                      <p>Email:</p>
+                      <span class="S2-div__div2__tex__tex2__ul__ul__li__span"
                         >dcarol.prince@gmail.com</span
                       >
                     </li>
@@ -148,7 +156,7 @@
         </div>
       </section>
 
-      <section class="section3">
+      <section id="sec3" class="section3">
         <div class="S3-div">
           <div class="S3-div__div1">
             <h2 class="S2-div__div1__h2">Skills</h2>
@@ -171,70 +179,87 @@
           <div class="S3-div__div2">
             <!--contenedores pequeños-->
             <div class="S3-div__div2__ul">
-              <ul class="S3-div__div2__ul__ul">
-                <li class="S3-div__div2__ul__ul__li">
-                  <strong>Management of digital tools</strong>
-                </li>
-                <li class="S3-div__div2__ul__ul__li">
-                  <strong>Agenda management</strong>
-                </li>
+              <div class="S3-div__div2__ul__img">
+                <i class="fa-solid fa-toolbox"></i>
+                <h3 class="S3-div__div2__ul__img__h3">Habilities</h3>
+              </div>
+              <div class="S3-div__div2__ul__list">
+                <ul class="S3-div__div2__ul__ul">
+                  <li class="S3-div__div2__ul__ul__li">
+                    <p>Administrative management</p>
+                  </li>
+                  <li class="S3-div__div2__ul__ul__li">
+                    <p>Agenda management</p>
+                  </li>
 
-                <li class="S3-div__div2__ul__ul__li">
-                  <strong>Receiving Calls</strong>
-                </li>
+                  <li class="S3-div__div2__ul__ul__li">
+                    <p>Translation and interpreter services</p>
+                  </li>
 
-                <li class="S3-div__div2__ul__ul__li">
-                  <strong>Preparation of reports</strong>
-                </li>
-              </ul>
+                  <li class="S3-div__div2__ul__ul__li">
+                    <p>Preparation of reports</p>
+                  </li>
+                </ul>
+
+                <ul class="S3-div__div2__ul__ul">
+                  <li class="S3-div__div2__ul__ul__li">
+                    <p>data entry</p>
+                  </li>
+                  <li class="S3-div__div2__ul__ul__li">
+                    <p>Search of suppliers</p>
+                  </li>
+
+                  <li class="S3-div__div2__ul__ul__li">
+                    <p>Basic design domain for advertising</p>
+                  </li>
+
+                  <li class="S3-div__div2__ul__ul__li">
+                    <p>Fast learning</p>
+                  </li>
+                </ul>
+              </div>
             </div>
             <!--contenedores pequeños-->
             <div class="S3-div__div2__ul">
+              <div class="S3-div__div2__ul__img">
+                <i class="fa-solid fa-desktop"></i>
+                <h3 class="S3-div__div2__ul__img__h3">Digital tools</h3>
+              </div>
               <ul class="S3-div__div2__ul__ul">
                 <li class="S3-div__div2__ul__ul__li">
-                  <strong>Travel organization</strong>
+                  <p>HTML</p>
                 </li>
                 <li class="S3-div__div2__ul__ul__li">
-                  <strong>Search of suppliers</strong>
-                </li>
-
-                <li class="S3-div__div2__ul__ul__li">
-                  <strong>Basic design domain for advertising</strong>
+                  <p>Css</p>
                 </li>
 
                 <li class="S3-div__div2__ul__ul__li">
-                  <strong>Fast learning</strong>
-                </li>
-              </ul>
-            </div>
-            <!--contenedores pequeños-->
-            <div class="S3-div__div2__ul">
-              <ul class="S3-div__div2__ul__ul">
-                <li class="S3-div__div2__ul__ul__li">
-                  <strong>communicative</strong>
-                </li>
-                <li class="S3-div__div2__ul__ul__li">
-                  <strong>Translation and interpreter services</strong>
+                  <p>JavaScript</p>
                 </li>
 
                 <li class="S3-div__div2__ul__ul__li">
-                  <strong>data entry</strong>
+                  <p>Slack</p>
                 </li>
-
                 <li class="S3-div__div2__ul__ul__li">
-                  <strong> Administrative management</strong>
+                  <p>Google drive</p>
+                </li>
+                <li class="S3-div__div2__ul__ul__li">
+                  <p>Zoom</p>
                 </li>
               </ul>
             </div>
             <!--contenedor pequeño-->
             <div class="S3-div__div2__ul">
               <ul class="S3-div__div2__ul__ul">
-                <h3>Language</h3>
+                <div class="S3-div__div2__ul__img">
+                  <i class="fa-solid fa-earth-americas"></i>
+                  <h3 class="S3-div__div2__ul__img__h3">Language</h3>
+                </div>
                 <li class="S3-div__div2__ul__ul__li">
-                  <strong>Spanish</strong>
+                  <p>Spanish</p>
                 </li>
                 <li class="S3-div__div2__ul__ul__li">
-                  <strong>English</strong>
+                  <p>English</p>
                 </li>
               </ul>
             </div>
@@ -244,7 +269,7 @@
       </section>
 
       <!-- Inicio de Resume-->
-      <section class="section4">
+      <section id="sec4" class="section4">
         <div class="section4__head">
           <h2 class="section4__head__h2">Resume</h2>
           <h2 class="section4__head__h2--cursive">Sumary</h2>
@@ -405,17 +430,275 @@
       <!-- Fin de Resume-->
 
       <!--Portafolio-->
-
-      <section class="section5">
+      <section id="sec5" class="section5">
         <div class="section5__div-principal">
-          <div></div>
+          <div class="section5__div-principal__div1">
+            <h2 class="section5__div-principal__div1__h2">Portafolio</h2>
+            <p class="section5__div-principal__div1__p">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco
+              laborisLorem ipsum dolor sit amet, consectetur adipiscing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            </p>
+          </div>
+          <!--botones-->
+          <div class="section5__div-principal__div2">
+            <ul class="section5__div-principal__div2__ul">
+              <li class="section5__div-principal__div2__ul__li">All</li>
+              <li class="section5__div-principal__div2__ul__li">BLOG</li>
+              <li class="section5__div-principal__div2__ul__li">CARD</li>
+              <li class="section5__div-principal__div2__ul__li">WEB</li>
+            </ul>
+          </div>
 
           <div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <!--cards-->
+            <div class="cards">
+              <!--cards1-->
+              <div class="card" style="width: 18rem">
+                <img
+                  class="card-img-top"
+                  src="assets/img/card1.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Cards</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a
+                    href=" https://cdianaprince.github.io/tienda-muebles/"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >More</a
+                  >
+                </div>
+              </div>
+              <!--cards2-->
+              <div class="card" style="width: 18rem">
+                <img
+                  class="card-img-top"
+                  src="assets/img/card2.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Cards</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a
+                    href="https://cdianaprince.github.io/Destinos-buscados/"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >More</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!--WEB-->
+            <div class="web">
+              <!--Web1-->
+              <div class="card" style="width: 18rem">
+                <img
+                  class="card-img-top"
+                  src="assets/img/web1.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Webs</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary">More</a>
+                </div>
+              </div>
+              <!--Web2-->
+              <div class="card" style="width: 18rem">
+                <img
+                  class="card-img-top"
+                  src="assets/img/web3.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Web</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a
+                    href="https://cdianaprince.github.io/portada-periodico/"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >More</a
+                  >
+                </div>
+              </div>
+              <!--Web3-->
+              <div class="card" style="width: 18rem">
+                <img
+                  class="card-img-top"
+                  src="assets/img/web2.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Web</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a
+                    href=" https://cdianaprince.github.io/pag-universidad/"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >More</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!--Blog-->
+            <div class="Blog">
+              <!--Blog1-->
+              <div class="card" style="width: 18rem">
+                <img
+                  class="card-img-top"
+                  src="assets/img/blog1.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Blog</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary">More</a>
+                </div>
+              </div>
+              <!--Blog2-->
+              <div class="card" style="width: 18rem">
+                <img
+                  class="card-img-top"
+                  src="assets/img/blog2.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Blog</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a
+                    href="https://cdianaprince.github.io/blog-tempel/"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >More</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!--Blog-->
           </div>
         </div>
+      </section>
+      <!--Formulario-->
+      <section id="sec6" class="section6">
+        <div class="section6__div-principal1">
+          <div class="section6__div-principal1__div1">
+            <h2 class="section6__div-principal1__div1__h2">Contact</h2>
+            <p class="section6__div-principal1__div1__p">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco
+              laborisLorem ipsum dolor sit amet, consectetur adipiscing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            </p>
+          </div>
+
+          <!--formulario-->
+          <div class="section6__div-principal1__div2">
+            <div class="section6__div-principal1__div2__divI">
+              <div class="section6__div-principal1__div2__img1">
+                <h4 class="section6__div-principal1__div2__img1 img--p">
+                  Location:
+                </h4>
+                <p>Tegucigalpa,Honduras</p>
+              </div>
+              <div class="section6__div-principal1__div2__img2">
+                <h4 class="section6__div-principal1__div2__img2 img--p">
+                  Email:
+                </h4>
+                <p>dcarol.prince@gmail.com</p>
+              </div>
+
+              <div class="section6__div-principa1l__div3__img3">
+                <h4 class="section6__div-principa1l__div3__img3 img--p">
+                  Call
+                </h4>
+                <p>+504 8954-5178</p>
+              </div>
+            </div>
+
+            <!--Forma-->
+            <form>
+              <div class="form-group">
+                <label class="img--p" for="exampleFormControlInput1"
+                  >Name</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="Giulio Martinez"
+                />
+              </div>
+
+              <div class="form-group">
+                <label class="img--p" for="exampleFormControlInput1"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="name@example.com"
+                />
+              </div>
+
+              <div class="form-group">
+                <label class="img--p" for="exampleFormControlInput1"
+                  >Subject</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="propuesta"
+                />
+              </div>
+
+              <div class="form-group">
+                <label class="img--p" for="exampleFormControlTextarea1"></label>
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary img--p">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+        <!--fin formulario-->
       </section>
     </main>
   </body>
